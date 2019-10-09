@@ -3,7 +3,10 @@ public class main {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Caleido a bater bué, update 2!");
+		cao puppy = new cao("Dalas", 1);
+		System.out.println("O meu novo cão chama-se "+ puppy.getNome() + " e tem " 
+		+ puppy.getIdade() + " anos." );
+		
 
 	}
 
